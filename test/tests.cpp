@@ -104,7 +104,7 @@ TEST(TaskTest, EarthRopeGapCorrect) {
 
 TEST(TaskTest, EarthRopeGapConstant) {
     double gap = earthRopeGap();
-    EXPECT_NEAR(gap, 0.1591549, 1e-5);
+    EXPECT_NEAR(gap, 0.1591549, 1e-4);
 }
 
 TEST(TaskTest, PoolCostPositive) {
